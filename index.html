@@ -21,8 +21,19 @@
 
     <div class="art" aria-hidden="true" style="position: absolute; left: 0; right: 0; top: 88px; height: calc(100vh - 88px); height: calc(100svh - 88px); display: flex; align-items: center; justify-content: center; pointer-events: none">
       <svg viewBox="0 0 800 380" style="height: min(62vh, 560px); width: auto; max-width: 118%; display: block; overflow: visible">
+        <rect x="-600" y="378" width="2000" height="5" fill="#3B2E22"></rect>
         <path class="pile" d="M690 380 C705 330 730 318 752 322 C776 326 790 352 800 380 Z" fill="#7A5C40"></path>
+        <g fill="#8A6A4A">
+          <circle class="dirt" cx="652" cy="344" r="5" style="--dx: 92px; --dy: 12px; --up: -58px"></circle>
+          <circle class="dirt" cx="660" cy="350" r="4" style="--dx: 70px; --dy: 22px; --up: -40px"></circle>
+          <circle class="dirt" cx="646" cy="352" r="3.5" style="--dx: 110px; --dy: 20px; --up: -70px"></circle>
+          <circle class="dirt" cx="664" cy="340" r="3" style="--dx: 56px; --dy: 30px; --up: -30px"></circle>
+          <circle class="dirt" cx="656" cy="356" r="4.5" style="--dx: 84px; --dy: 18px; --up: -50px"></circle>
+        </g>
         <g class="machine">
+          <ellipse cx="310" cy="380" rx="190" ry="7" fill="#000000" opacity=".4"></ellipse>
+          <ellipse class="dust" cx="140" cy="370" rx="26" ry="10" fill="#7A6A58"></ellipse>
+          <ellipse class="dust" cx="478" cy="372" rx="20" ry="8" fill="#7A6A58"></ellipse>
           <rect x="150" y="326" width="320" height="54" rx="27" fill="#0E0D0B"></rect>
           <g class="wheel"><circle cx="180" cy="353" r="17" fill="#3A352F"></circle><path d="M168 353h24M180 341v24" stroke="#0E0D0B" stroke-width="4"></path></g>
           <g class="wheel"><circle cx="245" cy="356" r="12" fill="#3A352F"></circle><path d="M237 356h16M245 348v16" stroke="#0E0D0B" stroke-width="3"></path></g>
@@ -30,26 +41,33 @@
           <g class="wheel"><circle cx="375" cy="356" r="12" fill="#3A352F"></circle><path d="M367 356h16M375 348v16" stroke="#0E0D0B" stroke-width="3"></path></g>
           <g class="wheel"><circle cx="440" cy="353" r="17" fill="#3A352F"></circle><path d="M428 353h24M440 341v24" stroke="#0E0D0B" stroke-width="4"></path></g>
           <rect x="235" y="308" width="160" height="20" fill="#2A2621"></rect>
-          <path d="M168 300 L168 262 Q168 246 186 246 L420 246 L432 300 Z" class="fill-accent"></path>
-          <rect x="168" y="292" width="264" height="10" fill="#0E0D0B" opacity=".35"></rect>
-          <path d="M206 246 L218 136 L336 136 L350 246 Z" class="fill-accent"></path>
-          <path d="M226 152 L322 152 L333 236 L218 236 Z" fill="#2E3A3F"></path>
-          <path d="M240 160 L262 160 L238 228 L226 228 Z" fill="#EDEAE3" opacity=".18"></path>
-          <rect x="208" y="126" width="136" height="14" rx="4" fill="#0E0D0B"></rect>
-          <rect x="186" y="214" width="18" height="34" rx="3" fill="#0E0D0B"></rect>
-          <text x="250" y="284" font-family="Archivo, sans-serif" font-weight="800" font-size="24" fill="#1C1A17">TRAKOP</text>
-          <g class="boom">
-            <path d="M402 298 L388 258 L548 126 L586 160 Z" class="fill-accent"></path>
-            <line x1="404" y1="232" x2="520" y2="168" stroke="#C9C2B6" stroke-width="7" stroke-linecap="round"></line>
-            <circle cx="420" cy="262" r="9" fill="#0E0D0B"></circle>
-            <g class="stick">
-              <path d="M556 140 L578 160 L652 300 L630 306 Z" class="fill-accent"></path>
-              <line x1="584" y1="136" x2="632" y2="246" stroke="#C9C2B6" stroke-width="6" stroke-linecap="round"></line>
-              <circle cx="566" cy="150" r="8" fill="#0E0D0B"></circle>
-              <g class="bucket">
-                <path d="M624 292 L668 296 L676 336 L652 360 L626 344 Z" fill="#0E0D0B"></path>
-                <path d="M652 360 L646 372 L640 356 M664 350 L668 366 L656 356" fill="#0E0D0B" stroke="#0E0D0B" stroke-width="3"></path>
-                <circle cx="640" cy="300" r="6" fill="#3A352F"></circle>
+          <g class="upper">
+            <circle class="puff" cx="386" cy="214" r="7" fill="#8C857A"></circle>
+            <circle class="puff p2" cx="386" cy="214" r="7" fill="#8C857A"></circle>
+            <circle class="puff p3" cx="386" cy="214" r="7" fill="#8C857A"></circle>
+            <rect x="381" y="216" width="9" height="32" rx="2" fill="#0E0D0B"></rect>
+            <path d="M168 300 L168 262 Q168 246 186 246 L420 246 L432 300 Z" class="fill-accent"></path>
+            <rect x="168" y="292" width="264" height="10" fill="#0E0D0B" opacity=".35"></rect>
+            <path d="M206 246 L218 136 L336 136 L350 246 Z" class="fill-accent"></path>
+            <path d="M226 152 L322 152 L333 236 L218 236 Z" fill="#2E3A3F"></path>
+            <path d="M240 160 L262 160 L238 228 L226 228 Z" fill="#EDEAE3" opacity=".18"></path>
+            <rect x="208" y="126" width="136" height="14" rx="4" fill="#0E0D0B"></rect>
+            <rect x="186" y="214" width="18" height="34" rx="3" fill="#0E0D0B"></rect>
+            <circle cx="340" cy="150" r="5" fill="#FFE9A8"></circle>
+            <text x="250" y="284" font-family="Archivo, sans-serif" font-weight="800" font-size="24" fill="#1C1A17">TRAKOP</text>
+            <g class="boom">
+              <path d="M402 298 L388 258 L548 126 L586 160 Z" class="fill-accent"></path>
+              <line x1="404" y1="232" x2="520" y2="168" stroke="#C9C2B6" stroke-width="7" stroke-linecap="round"></line>
+              <circle cx="420" cy="262" r="9" fill="#0E0D0B"></circle>
+              <g class="stick">
+                <path d="M556 140 L578 160 L652 300 L630 306 Z" class="fill-accent"></path>
+                <line x1="584" y1="136" x2="632" y2="246" stroke="#C9C2B6" stroke-width="6" stroke-linecap="round"></line>
+                <circle cx="566" cy="150" r="8" fill="#0E0D0B"></circle>
+                <g class="bucket">
+                  <path d="M624 292 L668 296 L676 336 L652 360 L626 344 Z" fill="#0E0D0B"></path>
+                  <path d="M652 360 L646 372 L640 356 M664 350 L668 366 L656 356" fill="#0E0D0B" stroke="#0E0D0B" stroke-width="3"></path>
+                  <circle cx="640" cy="300" r="6" fill="#3A352F"></circle>
+                </g>
               </g>
             </g>
           </g>
