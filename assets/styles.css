@@ -6,22 +6,22 @@ body{margin:0;background:#EDEAE3}
 a{color:#1C1A17}a:hover{color:#5A4331}
 .ph{background-color:#CFC8BB;background-image:repeating-linear-gradient(135deg,rgba(28,26,23,.09) 0 2px,transparent 2px 14px)}
 .phd{background-color:#2A2621;background-image:repeating-linear-gradient(135deg,rgba(237,234,227,.07) 0 2px,transparent 2px 14px)}
-.tape{background-image:repeating-linear-gradient(-45deg,#F2B705 0 22px,#1C1A17 22px 44px)}
-.art{animation:tk-blur .8s cubic-bezier(.4,0,.2,1) 2.7s both;transform-origin:50% 100%}
-.machine{animation:tk-drive 1s cubic-bezier(.2,.7,.3,1) both}
-.wheel{transform-box:fill-box;transform-origin:center;animation:tk-roll 1s cubic-bezier(.2,.7,.3,1) both}
-.boom{transform-box:view-box;transform-origin:420px 262px;animation:tk-boom 1.6s ease-in-out 1s both}
-.stick{transform-box:view-box;transform-origin:566px 150px;animation:tk-stick 1.6s ease-in-out 1s both}
-.bucket{transform-box:view-box;transform-origin:640px 300px;animation:tk-bucket 1.6s ease-in-out 1s both}
-.pile{transform-box:fill-box;transform-origin:50% 100%;animation:tk-pile 1.6s ease-out 1s both}
-.reveal{animation:tk-up .7s cubic-bezier(.2,.7,.3,1) both}
-.r1{animation-delay:3s}.r2{animation-delay:3.2s}.r3{animation-delay:3.4s}.r4{animation-delay:3.6s}
+.tape{background-image:repeating-linear-gradient(-45deg,#F2B705 0 18px,#1C1A17 18px 36px)}
+.art{animation:tk-blur .5s cubic-bezier(.4,0,.2,1) 1.7s both;transform-origin:50% 60%}
+.machine{animation:tk-drive .6s cubic-bezier(.2,.7,.3,1) both}
+.wheel{transform-box:fill-box;transform-origin:center;animation:tk-roll .6s cubic-bezier(.2,.7,.3,1) both}
+.boom{transform-box:view-box;transform-origin:420px 262px;animation:tk-boom 1.1s ease-in-out .6s both}
+.stick{transform-box:view-box;transform-origin:566px 150px;animation:tk-stick 1.1s ease-in-out .6s both}
+.bucket{transform-box:view-box;transform-origin:640px 300px;animation:tk-bucket 1.1s ease-in-out .6s both}
+.pile{transform-box:fill-box;transform-origin:50% 100%;animation:tk-pile 1.1s ease-out .6s both}
+.reveal{animation:tk-up .5s cubic-bezier(.2,.7,.3,1) both}
+.r1{animation-delay:1.85s}.r2{animation-delay:1.95s}.r3{animation-delay:2.08s}.r4{animation-delay:2.2s}
 @keyframes tk-drive{from{transform:translateX(-620px)}to{transform:translateX(0)}}
 @keyframes tk-roll{from{transform:rotate(-900deg)}to{transform:rotate(0)}}
 @keyframes tk-boom{0%{transform:rotate(0)}35%,60%{transform:rotate(13deg)}100%{transform:rotate(-7deg)}}
 @keyframes tk-stick{0%{transform:rotate(0)}35%,60%{transform:rotate(16deg)}100%{transform:rotate(-12deg)}}
 @keyframes tk-bucket{0%{transform:rotate(0)}40%{transform:rotate(12deg)}65%,100%{transform:rotate(-48deg)}}
 @keyframes tk-pile{0%,55%{transform:scaleY(.35)}100%{transform:scaleY(1)}}
-@keyframes tk-blur{from{filter:blur(0);opacity:1;transform:scale(1)}to{filter:blur(9px);opacity:.38;transform:scale(1.06)}}
-@keyframes tk-up{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
-@media (prefers-reduced-motion:reduce){.machine,.wheel,.boom,.stick,.bucket,.pile{animation:none}.art{animation:none;filter:blur(9px);opacity:.38}.reveal{animation:none}}
+@keyframes tk-blur{from{filter:blur(0);opacity:1;transform:scale(1)}to{filter:blur(9px);opacity:.36;transform:scale(1.05)}}
+@keyframes tk-up{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.machine,.wheel,.boom,.stick,.bucket,.pile{animation:none}.art{animation:none;filter:blur(9px);opacity:.36}.reveal{animation:none}}
