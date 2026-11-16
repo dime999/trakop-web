@@ -2,11 +2,11 @@
 
 Statična web stranica za **Obrt Trakop** – usluge iskopa mini bagerom, Visoko i okolina.
 
-Čisti HTML, CSS i malo JavaScripta. Nema build koraka ni zavisnosti.
+Čisti HTML i CSS. Nema build koraka ni zavisnosti.
 
 ## Pokretanje lokalno
 
-Najjednostavnije: dvaput kliknite na `index.html`.
+Najjednostavnije: dvaput kliknite na `start.bat` (pokreće server i otvara stranicu) ili na `index.html`.
 
 Ili preko lokalnog servera:
 
@@ -21,7 +21,6 @@ python -m http.server 5173
 ```
 index.html          sva stranica
 assets/styles.css   stilovi i animacija bagera
-assets/main.js      obrazac za upit (otvara SMS na 062 344 770)
 assets/favicon.svg  ikonica
 ```
 
@@ -30,7 +29,6 @@ assets/favicon.svg  ikonica
 - Fotografije: zamijenite prazna polja (`.ph`, `.phd`) pravim slikama radova.
 - Podaci o bageru: težina, dubina kopanja, širina, kašike (polja `[__]`).
 - Mjesta u kojima radite i radno vrijeme.
-- Obrazac: za slanje na e-mail povežite Formspree / Netlify Forms.
 
 ## Objavljivanje
 
