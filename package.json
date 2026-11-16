@@ -1,0 +1,10 @@
+{
+  "name": "trakop-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web stranica za Obrt Trakop – iskop mini bagerom, Visoko",
+  "scripts": {
+    "start": "npx --yes serve -l 5173 .",
+    "dev": "npx --yes serve -l 5173 ."
+  }
+}
