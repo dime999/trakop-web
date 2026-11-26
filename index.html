@@ -3,22 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Trakop – iskop mini bagerom | Visoko i okolina</title>
-<meta name="description" content="Obrt Trakop: iskop temelja, kanali za struju, vodu i drenažu, uređenje dvorišta mini bagerom. Visoko i okolina. Tel. 062 344 770.">
+<title>TRAKOP – Usluge iskopa mini bagerom | Visoko</title>
+<meta name="description" content="TRAKOP – usluge iskopa mini bagerom, zemljani radovi i uređenje terena u Visokom i okolini. Iskop temelja, kanala, ravnanje terena, nasipanje i tamponiranje. Tel. 062/344-770.">
 <meta name="theme-color" content="#1C1A17">
-<meta property="og:title" content="Trakop – iskop mini bagerom">
-<meta property="og:description" content="Kopamo tamo gdje veliki bager ne može. Visoko i okolina · 062 344 770">
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="TRAKOP – Usluge iskopa mini bagerom">
+<meta property="og:description" content="Pouzdan partner za sve vrste zemljanih i građevinskih radova. Visoko i okolina · 062/344-770">
+<meta property="og:image" content="assets/logo.png">
+<link rel="icon" href="assets/favicon.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/styles.css">
+<script src="assets/main.js" defer></script>
 </head>
 <body>
 <div style="font-family: Archivo, system-ui, sans-serif; color: #1C1A17; background: #EDEAE3; width: 100%; overflow: hidden">
 
-  <!-- HERO with intro animation -->
+  <!-- HERO -->
   <section id="top" style="position: relative; background: #1C1A17; color: #EDEAE3; min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; overflow: hidden">
-
     <div class="art" aria-hidden="true" style="position: absolute; left: 0; right: 0; top: 88px; height: calc(100vh - 88px); height: calc(100svh - 88px); display: flex; align-items: center; justify-content: center; pointer-events: none">
       <svg viewBox="0 0 800 380" style="height: min(62vh, 560px); width: auto; max-width: 118%; display: block; overflow: visible">
         <rect x="-600" y="378" width="2000" height="5" fill="#3B2E22"></rect>
@@ -75,277 +76,461 @@
       </svg>
     </div>
 
-    <!-- TOP BAR -->
-    <header style="position: relative; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 20px clamp(20px, 5vw, 72px); border-bottom: 1px solid #3A352F">
-      <a href="#top" style="display: flex; align-items: baseline; gap: 10px; text-decoration: none; color: #EDEAE3">
-        <span style="font-weight: 800; font-size: 30px; letter-spacing: 0.01em; line-height: 1">TRAKOP</span>
-        <span style="font-size: 14px; color: #B8B0A3">obrt za iskop</span>
+    <header class="topbar">
+      <a href="#top" class="brand" aria-label="TRAKOP – početak stranice">
+        <img src="assets/logo-sm.webp" alt="Obrt Trakop logo" width="120" height="80">
       </a>
-      <nav aria-label="Glavni meni" style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 28px; font-size: 16px; font-weight: 500">
-        <a href="#usluge" style="text-decoration: none; padding: 12px 0; color: #EDEAE3">Usluge</a>
-        <a href="#kako" style="text-decoration: none; padding: 12px 0; color: #EDEAE3">Kako radimo</a>
-        <a href="#radovi" style="text-decoration: none; padding: 12px 0; color: #EDEAE3">Radovi</a>
-        <a href="tel:+38762344770" style="text-decoration: none; background: var(--accent); color: #1C1A17; padding: 12px 18px; font-weight: 700; border-radius: 4px">062 344 770</a>
+      <nav aria-label="Glavni meni" class="nav">
+        <a href="#usluge">Usluge</a>
+        <a href="#radovi">Radovi</a>
+        <a href="#galerija">Galerija</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="tel:+38762344770" class="nav-phone">062/344-770</a>
       </nav>
     </header>
 
-    <div style="position: relative; flex: 1 1 auto; display: flex; flex-direction: column; justify-content: center; gap: 24px; padding: clamp(40px, 6vw, 80px) clamp(20px, 5vw, 72px) clamp(56px, 8vw, 120px)">
-      <p class="reveal r1" style="margin: 0; font-size: 17px; font-weight: 600; color: var(--accent)">Obrt Trakop · Visoko</p>
-      <h1 class="reveal r2" style="margin: 0; max-width: 15ch; font-weight: 800; font-size: clamp(44px, 6.4vw, 96px); line-height: 1.02; letter-spacing: -0.015em; color: #F6F3EC">Iskop mini bagerom u Visokom i okolini</h1>
-      <p class="reveal r3" style="margin: 0; max-width: 36rem; font-size: 20px; line-height: 1.55; color: #E2DCD1">Kopamo temelje, kanale za vodu, struju i kanalizaciju, drenažu i pripremamo teren u dvorištu. Mali bager prođe kroz kapiju i radi i tamo gdje veliki ne može prići.</p>
-      <div class="reveal r4" style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px">
-        <a href="tel:+38762344770" style="display: inline-flex; align-items: center; gap: 12px; background: var(--accent); color: #1C1A17; text-decoration: none; padding: 17px 26px; font-weight: 700; font-size: 18px; border-radius: 4px">
-          <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"></path></svg>
-          Pozovite 062 344 770
-        </a>
+    <div class="hero-copy">
+      <img class="reveal r1 hero-logo" src="assets/logo.webp" alt="Obrt Trakop, vl. Hamza Trako" width="900" height="597">
+      <p class="reveal r1 kicker">TRAKOP – Usluge iskopa mini bagerom</p>
+      <h1 class="reveal r2">Pouzdan partner za sve vrste zemljanih i građevinskih radova</h1>
+      <p class="reveal r3 lead">TRAKOP je obrt specijaliziran za usluge iskopa mini bagerom, zemljane radove i uređenje terena. Pružamo kvalitetne i pouzdane usluge za privatne i poslovne klijente na području Visokog i šire okoline.</p>
+      <div class="reveal r4 hero-cta">
+        <a href="tel:+38762344770" class="btn btn-accent"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"></path></svg> Pozovite 062/344-770</a>
+        <a href="#radovi" class="btn btn-ghost">Pogledajte radove</a>
       </div>
     </div>
   </section>
 
-  <!-- GROUND -->
-  <div aria-hidden="true" style="display: flex; flex-direction: column">
-    <div style="height: 14px; background: #3B2E22"></div>
-    <div style="height: 20px; background: #5A4331"></div>
-    <div style="height: 16px; background: #7A5C40"></div>
-    <div style="height: 26px; background: #A08A6C"></div>
-  </div>
+  <div aria-hidden="true" class="ground"><i></i><i></i><i></i><i></i></div>
+
+  <!-- SLIDER -->
+  <section id="radovi" class="sec-slider">
+    <div class="sec-head">
+      <h2>Izdvojeni radovi</h2>
+      <p>Nekoliko poslova na koje smo posebno ponosni. Ostale fotografije su u galeriji ispod.</p>
+    </div>
+    <div class="slider" data-autoplay="5000" role="region" aria-roledescription="carousel" aria-label="Izdvojeni radovi">
+      <div class="slides">
+        <figure class="slide is-active" data-index="0" aria-hidden="false">
+          <img class="slide-bg" src="assets/galerija/thumb/trakop-best-01.jpg" alt="" aria-hidden="true" loading="eager">
+          <img class="slide-img" src="assets/galerija/full/trakop-best-01.jpg" alt="Poravnat plato nakon iskopa" loading="eager">
+          <figcaption><span class="slide-num">01 / 12</span>Poravnat plato nakon iskopa</figcaption>
+        </figure>
+        <figure class="slide" data-index="1" aria-hidden="true">
+          <img class="slide-bg" src="assets/galerija/thumb/trakop-best-02.jpg" alt="" aria-hidden="true" loading="eager">
+          <img class="slide-img" src="assets/galerija/full/trakop-best-02.jpg" alt="Nivelisanje platoa" loading="eager">
+          <figcaption><span class="slide-num">02 / 12</span>Nivelisanje platoa</figcaption>
+        </figure>
+        <figure class="slide" data-index="2" aria-hidden="true">
+          <img class="slide-bg" src="assets/galerija/thumb/trakop-best-03.jpg" alt="" aria-hidden="true" loading="lazy">
+          <img class="slide-img" src="assets/galerija/full/trakop-best-03.jpg" alt="Uređen pristupni put" loading="lazy">
+          <figcaption><span class="slide-num">03 / 12</span>Uređen pristupni put</figcaption>
+        </figure>
+        <figure class="slide" data-index="3" aria-hidden="true">
+          <img class="slide-bg" src="assets/galerija/thumb/trakop-best-04.jpg" alt="" aria-hidden="true" loading="lazy">
+          <img class="slide-img" src="assets/galerija/full/trakop-best-04.jpg" alt="Pristupni put i cijevi za propust" loading="lazy">
+          <figcaption><span class="slide-num">04 / 12</span>Pristupni put i cijevi za propust</figcaption>
+        </figure>
+        <figure class="slide" data-index="4" aria-hidden="true">
+          <img class="slide-bg" src="assets/galerija/thumb/trakop-best-05.jpg" alt="" aria-hidden="true" loading="lazy">
+          <img class="slide-img" src="assets/galerija/full/trakop-best-05.jpg" alt="Ravnanje i priprema terena" loading="lazy">
+          <figcaption><span class="slide-num">05 / 12</span>Ravnanje i priprema terena</figcaption>
+        </figure>
+        <figure class="slide" data-index="5" aria-hidden="true">
+          <img class="slide-bg" src="assets/galerija/thumb/trakop-best-06.jpg" alt="" aria-hidden="true" loading="lazy">
+          <img class="slide-img" src="assets/galerija/full/trakop-best-06.jpg" alt="Ravnanje terena, cijevi spremne za ugradnju" loading="lazy">
+          <figcaption><span class="slide-num">06 / 12</span>Ravnanje terena, cijevi spremne za ugradnju</figcaption>
+        </figure>
+        <figure class="slide" data-index="6" aria-hidden="true">
+          <img class="slide-bg" src="assets/galerija/thumb/trakop-best-07.jpg" alt="" aria-hidden="true" loading="lazy">
+          <img class="slide-img" src="assets/galerija/full/trakop-best-07.jpg" alt="Uređenje puta kroz šumu" loading="lazy">
+          <figcaption><span class="slide-num">07 / 12</span>Uređenje puta kroz šumu</figcaption>
+        </figure>
+        <figure class="slide" data-index="7" aria-hidden="true">
+          <img class="slide-bg" src="assets/galerija/thumb/trakop-best-08.jpg" alt="" aria-hidden="true" loading="lazy">
+          <img class="slide-img" src="assets/galerija/full/trakop-best-08.jpg" alt="Nasut i poravnat put" loading="lazy">
+          <figcaption><span class="slide-num">08 / 12</span>Nasut i poravnat put</figcaption>
+        </figure>
+        <figure class="slide" data-index="8" aria-hidden="true">
+          <img class="slide-bg" src="assets/galerija/thumb/trakop-best-09.jpg" alt="" aria-hidden="true" loading="lazy">
+          <img class="slide-img" src="assets/galerija/full/trakop-best-09.jpg" alt="Probijanje puta kroz šumu" loading="lazy">
+          <figcaption><span class="slide-num">09 / 12</span>Probijanje puta kroz šumu</figcaption>
+        </figure>
+        <figure class="slide" data-index="9" aria-hidden="true">
+          <img class="slide-bg" src="assets/galerija/thumb/trakop-best-10.jpg" alt="" aria-hidden="true" loading="lazy">
+          <img class="slide-img" src="assets/galerija/full/trakop-best-10.jpg" alt="Iskop uz kosinu i širenje puta" loading="lazy">
+          <figcaption><span class="slide-num">10 / 12</span>Iskop uz kosinu i širenje puta</figcaption>
+        </figure>
+        <figure class="slide" data-index="10" aria-hidden="true">
+          <img class="slide-bg" src="assets/galerija/thumb/trakop-best-11.jpg" alt="" aria-hidden="true" loading="lazy">
+          <img class="slide-img" src="assets/galerija/full/trakop-best-11.jpg" alt="Mini bager na iskopu uz kosinu" loading="lazy">
+          <figcaption><span class="slide-num">11 / 12</span>Mini bager na iskopu uz kosinu</figcaption>
+        </figure>
+        <figure class="slide" data-index="11" aria-hidden="true">
+          <img class="slide-bg" src="assets/galerija/thumb/trakop-best-12.jpg" alt="" aria-hidden="true" loading="lazy">
+          <img class="slide-img" src="assets/galerija/full/trakop-best-12.jpg" alt="Iskop kanala uz put" loading="lazy">
+          <figcaption><span class="slide-num">12 / 12</span>Iskop kanala uz put</figcaption>
+        </figure>
+      </div>
+      <button type="button" class="s-nav s-prev" aria-label="Prethodna slika"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <button type="button" class="s-nav s-next" aria-label="Sljedeća slika"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+      <div class="s-progress" aria-hidden="true"><span></span></div>
+    </div>
+    <div class="dots"><button type="button" class="dot is-active" data-go="0" aria-label="Slika 1"></button><button type="button" class="dot" data-go="1" aria-label="Slika 2"></button><button type="button" class="dot" data-go="2" aria-label="Slika 3"></button><button type="button" class="dot" data-go="3" aria-label="Slika 4"></button><button type="button" class="dot" data-go="4" aria-label="Slika 5"></button><button type="button" class="dot" data-go="5" aria-label="Slika 6"></button><button type="button" class="dot" data-go="6" aria-label="Slika 7"></button><button type="button" class="dot" data-go="7" aria-label="Slika 8"></button><button type="button" class="dot" data-go="8" aria-label="Slika 9"></button><button type="button" class="dot" data-go="9" aria-label="Slika 10"></button><button type="button" class="dot" data-go="10" aria-label="Slika 11"></button><button type="button" class="dot" data-go="11" aria-label="Slika 12"></button></div>
+  </section>
 
   <!-- SERVICES -->
   <section id="usluge" style="padding: clamp(56px, 8vw, 112px) clamp(20px, 5vw, 72px)">
-    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 40px">
-      <h2 style="margin: 0; font-weight: 800; font-size: clamp(40px, 5vw, 68px); line-height: 1.05; letter-spacing: -0.01em">Usluge</h2>
-      <p style="margin: 0; max-width: 28rem; font-size: 18px; line-height: 1.55; color: #3A352F">Ako niste sigurni da li možemo odraditi vaš posao, nazovite i pitajte.</p>
+    <div class="sec-head">
+      <h2>Naše usluge</h2>
+      <p>Pouzdan partner za sve vrste zemljanih i građevinskih radova.</p>
     </div>
-    <div style="display: flex; flex-direction: column; border-top: 2px solid #1C1A17">
-      
-        <div style="display: flex; flex-wrap: wrap; gap: 12px 48px; padding: 30px 0; border-bottom: 1px solid #A39A8C; align-items: baseline">
-          <span style="flex: 0 0 48px; font-size: 18px; font-weight: 600; color: #6B6358">01</span>
-          <h3 style="flex: 1 1 320px; margin: 0; font-weight: 700; font-size: clamp(24px, 2.4vw, 32px); line-height: 1.15">Iskop temelja</h3>
-          <p style="flex: 1 1 380px; margin: 0; font-size: 18px; line-height: 1.6; color: #3A352F">Za kuće, vikendice, garaže, ograde i pomoćne objekte. Kopamo po mjerama iz projekta ili kako se dogovorimo s vašim majstorom.</p>
-        </div>
-      
-        <div style="display: flex; flex-wrap: wrap; gap: 12px 48px; padding: 30px 0; border-bottom: 1px solid #A39A8C; align-items: baseline">
-          <span style="flex: 0 0 48px; font-size: 18px; font-weight: 600; color: #6B6358">02</span>
-          <h3 style="flex: 1 1 320px; margin: 0; font-weight: 700; font-size: clamp(24px, 2.4vw, 32px); line-height: 1.15">Kanali za vodu, struju i kanalizaciju</h3>
-          <p style="flex: 1 1 380px; margin: 0; font-size: 18px; line-height: 1.6; color: #3A352F">Kopamo kanale za priključke od ulice do kuće, kao i za cijevi i kablove po dvorištu.</p>
-        </div>
-      
-        <div style="display: flex; flex-wrap: wrap; gap: 12px 48px; padding: 30px 0; border-bottom: 1px solid #A39A8C; align-items: baseline">
-          <span style="flex: 0 0 48px; font-size: 18px; font-weight: 600; color: #6B6358">03</span>
-          <h3 style="flex: 1 1 320px; margin: 0; font-weight: 700; font-size: clamp(24px, 2.4vw, 32px); line-height: 1.15">Drenaža</h3>
-          <p style="flex: 1 1 380px; margin: 0; font-size: 18px; line-height: 1.6; color: #3A352F">Kanali za drenažu oko kuće i temelja, da voda ne ide u zidove i podrum.</p>
-        </div>
-      
-        <div style="display: flex; flex-wrap: wrap; gap: 12px 48px; padding: 30px 0; border-bottom: 1px solid #A39A8C; align-items: baseline">
-          <span style="flex: 0 0 48px; font-size: 18px; font-weight: 600; color: #6B6358">04</span>
-          <h3 style="flex: 1 1 320px; margin: 0; font-weight: 700; font-size: clamp(24px, 2.4vw, 32px); line-height: 1.15">Uređenje dvorišta i priprema terena</h3>
-          <p style="flex: 1 1 380px; margin: 0; font-size: 18px; line-height: 1.6; color: #3A352F">Ravnanje terena, skidanje zemlje i priprema podloge za beton, kocku ili travu.</p>
-        </div>
-      
-        <div style="display: flex; flex-wrap: wrap; gap: 12px 48px; padding: 30px 0; border-bottom: 1px solid #A39A8C; align-items: baseline">
-          <span style="flex: 0 0 48px; font-size: 18px; font-weight: 600; color: #6B6358">05</span>
-          <h3 style="flex: 1 1 320px; margin: 0; font-weight: 700; font-size: clamp(24px, 2.4vw, 32px); line-height: 1.15">Nasipanje i uređenje puteva</h3>
-          <p style="flex: 1 1 380px; margin: 0; font-size: 18px; line-height: 1.6; color: #3A352F">Nasipanje šljunka, ravnanje i zbijanje podloge za prilazne puteve, staze i dvorišta.</p>
-        </div>
-      
-    </div>
+    <ol class="services">
+      <li><span>01</span>Iskop temelja za kuće i objekte</li><li><span>02</span>Iskop kanala za vodu, struju i kanalizaciju</li><li><span>03</span>Iskop i uređenje dvorišta</li><li><span>04</span>Ravnanje i priprema terena</li><li><span>05</span>Čišćenje i uređenje puteva</li><li><span>06</span>Nasipanje i tamponiranje</li><li><span>07</span>Utovar i odvoz zemlje i građevinskog materijala</li><li><span>08</span>Ostali zemljani i pripremni građevinski radovi</li>
+    </ol>
   </section>
 
-  <!-- WHY MINI -->
-  <section style="background: #1C1A17; color: #EDEAE3; padding: clamp(56px, 8vw, 112px) clamp(20px, 5vw, 72px); display: flex; flex-wrap: wrap; gap: 56px">
-    <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
-      <h2 style="margin: 0; font-weight: 800; font-size: clamp(38px, 4.6vw, 62px); line-height: 1.05; letter-spacing: -0.01em">Zašto mini bager?</h2>
-      <p style="margin: 0; max-width: 34rem; font-size: 18px; line-height: 1.6; color: #CFC7BA">Za većinu poslova oko kuće veliki bager je prevelik. Ne može proći kroz kapiju, a gusjenicama uništi travnjak i staze. Mini bager je uzak i lagan, pa se s njim može raditi uz samu kuću, između objekata i u već uređenom dvorištu.</p>
-      <img src="assets/bager.jpg" alt="Žuti mini bager kopa kanal na terenu" style="width: 100%; aspect-ratio: 4 / 3; height: auto; object-fit: cover; object-position: 50% 45%; display: block; border-radius: 4px; margin-top: 10px">
+  <!-- WHY -->
+  <section class="why">
+    <div class="why-text">
+      <h2>Zašto odabrati TRAKOP?</h2>
+      <ul>
+        <li><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2B705" stroke-width="2.6" stroke-linecap="square" style="flex:none;margin-top:2px"><path d="M4 12l5 5L20 6"></path></svg><span>Profesionalna oprema i pouzdan rad</span></li><li><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2B705" stroke-width="2.6" stroke-linecap="square" style="flex:none;margin-top:2px"><path d="M4 12l5 5L20 6"></path></svg><span>Preciznost i kvalitet izvedenih radova</span></li><li><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2B705" stroke-width="2.6" stroke-linecap="square" style="flex:none;margin-top:2px"><path d="M4 12l5 5L20 6"></path></svg><span>Dogovoreni rokovi i korektan odnos prema klijentima</span></li><li><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2B705" stroke-width="2.6" stroke-linecap="square" style="flex:none;margin-top:2px"><path d="M4 12l5 5L20 6"></path></svg><span>Pristupačne cijene i fleksibilnost</span></li>
+      </ul>
+      <p class="why-tag">TRAKOP – Vaš teren, naš posao!</p>
     </div>
-    <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column">
-      <div style="display: flex; flex-direction: column; gap: 18px; justify-content: center; height: 100%">
-        
-          <div style="display: flex; gap: 14px; align-items: flex-start; font-size: 18px; line-height: 1.45">
-            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2B705" stroke-width="2.5" stroke-linecap="square" style="flex: none; margin-top: 2px"><path d="M4 12l5 5L20 6"></path></svg>
-            <span>Prolazi kroz kapije i uske prolaze</span>
-          </div>
-        
-          <div style="display: flex; gap: 14px; align-items: flex-start; font-size: 18px; line-height: 1.45">
-            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2B705" stroke-width="2.5" stroke-linecap="square" style="flex: none; margin-top: 2px"><path d="M4 12l5 5L20 6"></path></svg>
-            <span>Manje oštećuje travnjak i staze</span>
-          </div>
-        
-          <div style="display: flex; gap: 14px; align-items: flex-start; font-size: 18px; line-height: 1.45">
-            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2B705" stroke-width="2.5" stroke-linecap="square" style="flex: none; margin-top: 2px"><path d="M4 12l5 5L20 6"></path></svg>
-            <span>Brz, precizan i pouzdan rad</span>
-          </div>
-        
-      </div>
-    </div>
+    <img class="why-img" src="assets/galerija/full/trakop-all-71.jpg" alt="Mini bager na iskopu kanala" loading="lazy">
   </section>
 
   <!-- PROCESS -->
   <section id="kako" style="padding: clamp(56px, 8vw, 112px) clamp(20px, 5vw, 72px)">
-    <h2 style="margin: 0 0 40px; font-weight: 800; font-size: clamp(40px, 5vw, 68px); line-height: 1.05; letter-spacing: -0.01em">Kako ide dogovor</h2>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px">
-      
-        <div style="padding: 28px; display: flex; flex-direction: column; gap: 12px; background: #E3DED4; border-radius: 6px">
-          <span style="width: 40px; height: 40px; border-radius: 50%; background: #1C1A17; color: #EDEAE3; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 18px">1</span>
-          <h3 style="margin: 8px 0 0; font-size: 22px; font-weight: 700">Nazovete nas</h3>
-          <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #3A352F">Recite nam šta treba kopati i gdje. Ako možete, pošaljite sliku terena porukom.</p>
-        </div>
-      
-        <div style="padding: 28px; display: flex; flex-direction: column; gap: 12px; background: #E3DED4; border-radius: 6px">
-          <span style="width: 40px; height: 40px; border-radius: 50%; background: #1C1A17; color: #EDEAE3; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 18px">2</span>
-          <h3 style="margin: 8px 0 0; font-size: 22px; font-weight: 700">Dogovorimo cijenu i termin</h3>
-          <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #3A352F">Za veće poslove dođemo pogledati teren prije nego što se dogovorimo.</p>
-        </div>
-      
-        <div style="padding: 28px; display: flex; flex-direction: column; gap: 12px; background: #E3DED4; border-radius: 6px">
-          <span style="width: 40px; height: 40px; border-radius: 50%; background: #1C1A17; color: #EDEAE3; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 18px">3</span>
-          <h3 style="margin: 8px 0 0; font-size: 22px; font-weight: 700">Dolazimo i radimo</h3>
-          <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #3A352F">Dođemo u dogovoreni termin i završimo posao.</p>
-        </div>
-      
+    <h2 style="margin: 0 0 40px; font-weight: 800; font-size: clamp(36px, 4.6vw, 62px); line-height: 1.05; letter-spacing: -0.01em">Kako ide dogovor</h2>
+    <div class="steps">
+      <div><b>1</b><h3>Nazovete nas</h3><p>Recite nam šta treba uraditi i gdje. Ako možete, pošaljite sliku terena porukom.</p></div>
+      <div><b>2</b><h3>Dogovorimo cijenu i termin</h3><p>Za veće poslove dođemo pogledati teren i damo vam ponudu.</p></div>
+      <div><b>3</b><h3>Dolazimo i radimo</h3><p>Dođemo u dogovoreni termin, završimo posao i teren ostavimo uredno.</p></div>
     </div>
   </section>
 
-  <!-- WORK -->
-  <section id="radovi" style="padding: 0 clamp(20px, 5vw, 72px) clamp(56px, 8vw, 112px)">
-    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 20px; margin-bottom: 28px">
-      <h2 style="margin: 0; font-weight: 800; font-size: clamp(40px, 5vw, 68px); line-height: 1.05; letter-spacing: -0.01em">Naši radovi</h2>
-      <a href="https://www.facebook.com/people/Obrt-Trakop/61571004263440/" style="font-size: 17px; font-weight: 600; padding: 12px 0">Više slika na Facebook stranici</a>
+  <!-- GALLERY -->
+  <section id="galerija" style="padding: 0 clamp(20px, 5vw, 72px) clamp(56px, 8vw, 112px)">
+    <div class="sec-head">
+      <h2>Galerija</h2>
+      <p>94 fotografija s naših gradilišta. Kliknite na sliku za veći prikaz.</p>
     </div>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 16px">
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/best-01.jpg" alt="Poravnat plato nakon iskopa" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Poravnat plato nakon iskopa</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/best-02.jpg" alt="Nivelisanje platoa" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Nivelisanje platoa</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/best-03.jpg" alt="Uređen pristupni put" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Uređen pristupni put</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/best-05.jpg" alt="Ravnanje terena" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Ravnanje terena</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/best-06.jpg" alt="Ravnanje terena, cijevi spremne za ugradnju" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Ravnanje terena, cijevi spremne za ugradnju</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/best-07.jpg" alt="Uređenje puta kroz šumu" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Uređenje puta kroz šumu</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/best-08.jpg" alt="Nasut i poravnat put" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Nasut i poravnat put</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/best-09.jpg" alt="Probijanje puta kroz šumu" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Probijanje puta kroz šumu</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/best-10.jpg" alt="Iskop uz kosinu i širenje puta" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Iskop uz kosinu i širenje puta</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/best-11.jpg" alt="Mini bager na iskopu uz kosinu" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Mini bager na iskopu uz kosinu</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/best-12.jpg" alt="Iskop kanala uz put" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Iskop kanala uz put</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/novo-01.jpg" alt="Nasut i poravnat prilaz kući" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Nasut i poravnat prilaz kući</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/novo-02.jpg" alt="Nasipanje šljunka uz kuću" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Nasipanje šljunka uz kuću</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/novo-03.jpg" alt="Priprema terena uz kuću" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Priprema terena uz kuću</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/novo-05.jpg" alt="Valjanje nasipa" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Valjanje nasipa</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/novo-06.jpg" alt="Zbijanje podloge valjkom" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Zbijanje podloge valjkom</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/novo-07.jpg" alt="Iskop uz temelj kuće" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Iskop uz temelj kuće</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/novo-08.jpg" alt="Iskop i ravnanje uz kuću" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Iskop i ravnanje uz kuću</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/radovi-6.jpg" alt="Iskopan i obilježen plato s gomilama zemlje" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Iskop platoa, obilježen teren</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/radovi-7.jpg" alt="Iskop zemlje uz kosinu po magli" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Iskop uz kosinu</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/radovi-8.jpg" alt="Mini bager kopa, kamion odvozi zemlju" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Iskop i utovar zemlje u kamion</figcaption>
-        </figure>
-      
-        <figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
-          <img src="assets/radovi/radovi-9.jpg" alt="Poravnato dno iskopa uz zemljanu kosinu" loading="lazy" style="aspect-ratio: 3 / 4; width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px; background: #CFC8BB">
-          <figcaption style="font-size: 15px; color: #5E574D">Poravnato dno iskopa</figcaption>
-        </figure>
-      
+    <div class="gallery">
+      <button type="button" class="g-item" data-full="assets/galerija/full/trakop-best-01.jpg" data-cap="Poravnat plato nakon iskopa" aria-label="Otvori fotografiju 1 od 94">
+        <img src="assets/galerija/thumb/trakop-best-01.jpg" alt="Poravnat plato nakon iskopa" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item" data-full="assets/galerija/full/trakop-best-02.jpg" data-cap="Nivelisanje platoa" aria-label="Otvori fotografiju 2 od 94">
+        <img src="assets/galerija/thumb/trakop-best-02.jpg" alt="Nivelisanje platoa" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item" data-full="assets/galerija/full/trakop-best-03.jpg" data-cap="Uređen pristupni put" aria-label="Otvori fotografiju 3 od 94">
+        <img src="assets/galerija/thumb/trakop-best-03.jpg" alt="Uređen pristupni put" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item" data-full="assets/galerija/full/trakop-best-04.jpg" data-cap="Pristupni put i cijevi za propust" aria-label="Otvori fotografiju 4 od 94">
+        <img src="assets/galerija/thumb/trakop-best-04.jpg" alt="Pristupni put i cijevi za propust" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item" data-full="assets/galerija/full/trakop-best-05.jpg" data-cap="Ravnanje i priprema terena" aria-label="Otvori fotografiju 5 od 94">
+        <img src="assets/galerija/thumb/trakop-best-05.jpg" alt="Ravnanje i priprema terena" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item" data-full="assets/galerija/full/trakop-best-06.jpg" data-cap="Ravnanje terena, cijevi spremne za ugradnju" aria-label="Otvori fotografiju 6 od 94">
+        <img src="assets/galerija/thumb/trakop-best-06.jpg" alt="Ravnanje terena, cijevi spremne za ugradnju" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item" data-full="assets/galerija/full/trakop-best-07.jpg" data-cap="Uređenje puta kroz šumu" aria-label="Otvori fotografiju 7 od 94">
+        <img src="assets/galerija/thumb/trakop-best-07.jpg" alt="Uređenje puta kroz šumu" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item" data-full="assets/galerija/full/trakop-best-08.jpg" data-cap="Nasut i poravnat put" aria-label="Otvori fotografiju 8 od 94">
+        <img src="assets/galerija/thumb/trakop-best-08.jpg" alt="Nasut i poravnat put" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item" data-full="assets/galerija/full/trakop-best-09.jpg" data-cap="Probijanje puta kroz šumu" aria-label="Otvori fotografiju 9 od 94">
+        <img src="assets/galerija/thumb/trakop-best-09.jpg" alt="Probijanje puta kroz šumu" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item" data-full="assets/galerija/full/trakop-best-10.jpg" data-cap="Iskop uz kosinu i širenje puta" aria-label="Otvori fotografiju 10 od 94">
+        <img src="assets/galerija/thumb/trakop-best-10.jpg" alt="Iskop uz kosinu i širenje puta" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item" data-full="assets/galerija/full/trakop-best-11.jpg" data-cap="Mini bager na iskopu uz kosinu" aria-label="Otvori fotografiju 11 od 94">
+        <img src="assets/galerija/thumb/trakop-best-11.jpg" alt="Mini bager na iskopu uz kosinu" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item" data-full="assets/galerija/full/trakop-best-12.jpg" data-cap="Iskop kanala uz put" aria-label="Otvori fotografiju 12 od 94">
+        <img src="assets/galerija/thumb/trakop-best-12.jpg" alt="Iskop kanala uz put" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item" data-full="assets/galerija/full/trakop-novo-01.jpg" data-cap="" aria-label="Otvori fotografiju 13 od 94">
+        <img src="assets/galerija/thumb/trakop-novo-01.jpg" alt="Radovi Trakop, fotografija 13" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item" data-full="assets/galerija/full/trakop-novo-02.jpg" data-cap="" aria-label="Otvori fotografiju 14 od 94">
+        <img src="assets/galerija/thumb/trakop-novo-02.jpg" alt="Radovi Trakop, fotografija 14" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item" data-full="assets/galerija/full/trakop-novo-03.jpg" data-cap="" aria-label="Otvori fotografiju 15 od 94">
+        <img src="assets/galerija/thumb/trakop-novo-03.jpg" alt="Radovi Trakop, fotografija 15" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item" data-full="assets/galerija/full/trakop-novo-04.jpg" data-cap="" aria-label="Otvori fotografiju 16 od 94">
+        <img src="assets/galerija/thumb/trakop-novo-04.jpg" alt="Radovi Trakop, fotografija 16" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-novo-05.jpg" data-cap="" aria-label="Otvori fotografiju 17 od 94">
+        <img src="assets/galerija/thumb/trakop-novo-05.jpg" alt="Radovi Trakop, fotografija 17" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-novo-06.jpg" data-cap="" aria-label="Otvori fotografiju 18 od 94">
+        <img src="assets/galerija/thumb/trakop-novo-06.jpg" alt="Radovi Trakop, fotografija 18" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-novo-07.jpg" data-cap="" aria-label="Otvori fotografiju 19 od 94">
+        <img src="assets/galerija/thumb/trakop-novo-07.jpg" alt="Radovi Trakop, fotografija 19" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-novo-08.jpg" data-cap="" aria-label="Otvori fotografiju 20 od 94">
+        <img src="assets/galerija/thumb/trakop-novo-08.jpg" alt="Radovi Trakop, fotografija 20" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-01.jpg" data-cap="" aria-label="Otvori fotografiju 21 od 94">
+        <img src="assets/galerija/thumb/trakop-all-01.jpg" alt="Radovi Trakop, fotografija 21" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-02.jpg" data-cap="" aria-label="Otvori fotografiju 22 od 94">
+        <img src="assets/galerija/thumb/trakop-all-02.jpg" alt="Radovi Trakop, fotografija 22" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-03.jpg" data-cap="" aria-label="Otvori fotografiju 23 od 94">
+        <img src="assets/galerija/thumb/trakop-all-03.jpg" alt="Radovi Trakop, fotografija 23" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-04.jpg" data-cap="" aria-label="Otvori fotografiju 24 od 94">
+        <img src="assets/galerija/thumb/trakop-all-04.jpg" alt="Radovi Trakop, fotografija 24" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-05.jpg" data-cap="" aria-label="Otvori fotografiju 25 od 94">
+        <img src="assets/galerija/thumb/trakop-all-05.jpg" alt="Radovi Trakop, fotografija 25" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-08.jpg" data-cap="" aria-label="Otvori fotografiju 26 od 94">
+        <img src="assets/galerija/thumb/trakop-all-08.jpg" alt="Radovi Trakop, fotografija 26" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-09.jpg" data-cap="" aria-label="Otvori fotografiju 27 od 94">
+        <img src="assets/galerija/thumb/trakop-all-09.jpg" alt="Radovi Trakop, fotografija 27" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-10.jpg" data-cap="" aria-label="Otvori fotografiju 28 od 94">
+        <img src="assets/galerija/thumb/trakop-all-10.jpg" alt="Radovi Trakop, fotografija 28" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-11.jpg" data-cap="" aria-label="Otvori fotografiju 29 od 94">
+        <img src="assets/galerija/thumb/trakop-all-11.jpg" alt="Radovi Trakop, fotografija 29" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-12.jpg" data-cap="" aria-label="Otvori fotografiju 30 od 94">
+        <img src="assets/galerija/thumb/trakop-all-12.jpg" alt="Radovi Trakop, fotografija 30" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-13.jpg" data-cap="" aria-label="Otvori fotografiju 31 od 94">
+        <img src="assets/galerija/thumb/trakop-all-13.jpg" alt="Radovi Trakop, fotografija 31" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-14.jpg" data-cap="" aria-label="Otvori fotografiju 32 od 94">
+        <img src="assets/galerija/thumb/trakop-all-14.jpg" alt="Radovi Trakop, fotografija 32" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-15.jpg" data-cap="" aria-label="Otvori fotografiju 33 od 94">
+        <img src="assets/galerija/thumb/trakop-all-15.jpg" alt="Radovi Trakop, fotografija 33" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-16.jpg" data-cap="" aria-label="Otvori fotografiju 34 od 94">
+        <img src="assets/galerija/thumb/trakop-all-16.jpg" alt="Radovi Trakop, fotografija 34" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-17.jpg" data-cap="" aria-label="Otvori fotografiju 35 od 94">
+        <img src="assets/galerija/thumb/trakop-all-17.jpg" alt="Radovi Trakop, fotografija 35" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-18.jpg" data-cap="" aria-label="Otvori fotografiju 36 od 94">
+        <img src="assets/galerija/thumb/trakop-all-18.jpg" alt="Radovi Trakop, fotografija 36" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-19.jpg" data-cap="" aria-label="Otvori fotografiju 37 od 94">
+        <img src="assets/galerija/thumb/trakop-all-19.jpg" alt="Radovi Trakop, fotografija 37" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-20.jpg" data-cap="" aria-label="Otvori fotografiju 38 od 94">
+        <img src="assets/galerija/thumb/trakop-all-20.jpg" alt="Radovi Trakop, fotografija 38" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-21.jpg" data-cap="" aria-label="Otvori fotografiju 39 od 94">
+        <img src="assets/galerija/thumb/trakop-all-21.jpg" alt="Radovi Trakop, fotografija 39" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-22.jpg" data-cap="" aria-label="Otvori fotografiju 40 od 94">
+        <img src="assets/galerija/thumb/trakop-all-22.jpg" alt="Radovi Trakop, fotografija 40" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-23.jpg" data-cap="" aria-label="Otvori fotografiju 41 od 94">
+        <img src="assets/galerija/thumb/trakop-all-23.jpg" alt="Radovi Trakop, fotografija 41" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-24.jpg" data-cap="" aria-label="Otvori fotografiju 42 od 94">
+        <img src="assets/galerija/thumb/trakop-all-24.jpg" alt="Radovi Trakop, fotografija 42" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-25.jpg" data-cap="" aria-label="Otvori fotografiju 43 od 94">
+        <img src="assets/galerija/thumb/trakop-all-25.jpg" alt="Radovi Trakop, fotografija 43" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-26.jpg" data-cap="" aria-label="Otvori fotografiju 44 od 94">
+        <img src="assets/galerija/thumb/trakop-all-26.jpg" alt="Radovi Trakop, fotografija 44" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-27.jpg" data-cap="" aria-label="Otvori fotografiju 45 od 94">
+        <img src="assets/galerija/thumb/trakop-all-27.jpg" alt="Radovi Trakop, fotografija 45" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-28.jpg" data-cap="" aria-label="Otvori fotografiju 46 od 94">
+        <img src="assets/galerija/thumb/trakop-all-28.jpg" alt="Radovi Trakop, fotografija 46" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-29.jpg" data-cap="" aria-label="Otvori fotografiju 47 od 94">
+        <img src="assets/galerija/thumb/trakop-all-29.jpg" alt="Radovi Trakop, fotografija 47" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-30.jpg" data-cap="" aria-label="Otvori fotografiju 48 od 94">
+        <img src="assets/galerija/thumb/trakop-all-30.jpg" alt="Radovi Trakop, fotografija 48" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-31.jpg" data-cap="" aria-label="Otvori fotografiju 49 od 94">
+        <img src="assets/galerija/thumb/trakop-all-31.jpg" alt="Radovi Trakop, fotografija 49" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-32.jpg" data-cap="" aria-label="Otvori fotografiju 50 od 94">
+        <img src="assets/galerija/thumb/trakop-all-32.jpg" alt="Radovi Trakop, fotografija 50" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-33.jpg" data-cap="" aria-label="Otvori fotografiju 51 od 94">
+        <img src="assets/galerija/thumb/trakop-all-33.jpg" alt="Radovi Trakop, fotografija 51" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-34.jpg" data-cap="" aria-label="Otvori fotografiju 52 od 94">
+        <img src="assets/galerija/thumb/trakop-all-34.jpg" alt="Radovi Trakop, fotografija 52" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-35.jpg" data-cap="" aria-label="Otvori fotografiju 53 od 94">
+        <img src="assets/galerija/thumb/trakop-all-35.jpg" alt="Radovi Trakop, fotografija 53" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-36.jpg" data-cap="" aria-label="Otvori fotografiju 54 od 94">
+        <img src="assets/galerija/thumb/trakop-all-36.jpg" alt="Radovi Trakop, fotografija 54" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-37.jpg" data-cap="" aria-label="Otvori fotografiju 55 od 94">
+        <img src="assets/galerija/thumb/trakop-all-37.jpg" alt="Radovi Trakop, fotografija 55" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-38.jpg" data-cap="" aria-label="Otvori fotografiju 56 od 94">
+        <img src="assets/galerija/thumb/trakop-all-38.jpg" alt="Radovi Trakop, fotografija 56" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-39.jpg" data-cap="" aria-label="Otvori fotografiju 57 od 94">
+        <img src="assets/galerija/thumb/trakop-all-39.jpg" alt="Radovi Trakop, fotografija 57" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-40.jpg" data-cap="" aria-label="Otvori fotografiju 58 od 94">
+        <img src="assets/galerija/thumb/trakop-all-40.jpg" alt="Radovi Trakop, fotografija 58" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-41.jpg" data-cap="" aria-label="Otvori fotografiju 59 od 94">
+        <img src="assets/galerija/thumb/trakop-all-41.jpg" alt="Radovi Trakop, fotografija 59" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-42.jpg" data-cap="" aria-label="Otvori fotografiju 60 od 94">
+        <img src="assets/galerija/thumb/trakop-all-42.jpg" alt="Radovi Trakop, fotografija 60" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-43.jpg" data-cap="" aria-label="Otvori fotografiju 61 od 94">
+        <img src="assets/galerija/thumb/trakop-all-43.jpg" alt="Radovi Trakop, fotografija 61" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-44.jpg" data-cap="" aria-label="Otvori fotografiju 62 od 94">
+        <img src="assets/galerija/thumb/trakop-all-44.jpg" alt="Radovi Trakop, fotografija 62" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-45.jpg" data-cap="" aria-label="Otvori fotografiju 63 od 94">
+        <img src="assets/galerija/thumb/trakop-all-45.jpg" alt="Radovi Trakop, fotografija 63" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-46.jpg" data-cap="" aria-label="Otvori fotografiju 64 od 94">
+        <img src="assets/galerija/thumb/trakop-all-46.jpg" alt="Radovi Trakop, fotografija 64" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-47.jpg" data-cap="" aria-label="Otvori fotografiju 65 od 94">
+        <img src="assets/galerija/thumb/trakop-all-47.jpg" alt="Radovi Trakop, fotografija 65" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-48.jpg" data-cap="" aria-label="Otvori fotografiju 66 od 94">
+        <img src="assets/galerija/thumb/trakop-all-48.jpg" alt="Radovi Trakop, fotografija 66" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-49.jpg" data-cap="" aria-label="Otvori fotografiju 67 od 94">
+        <img src="assets/galerija/thumb/trakop-all-49.jpg" alt="Radovi Trakop, fotografija 67" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-50.jpg" data-cap="" aria-label="Otvori fotografiju 68 od 94">
+        <img src="assets/galerija/thumb/trakop-all-50.jpg" alt="Radovi Trakop, fotografija 68" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-51.jpg" data-cap="" aria-label="Otvori fotografiju 69 od 94">
+        <img src="assets/galerija/thumb/trakop-all-51.jpg" alt="Radovi Trakop, fotografija 69" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-52.jpg" data-cap="" aria-label="Otvori fotografiju 70 od 94">
+        <img src="assets/galerija/thumb/trakop-all-52.jpg" alt="Radovi Trakop, fotografija 70" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-53.jpg" data-cap="" aria-label="Otvori fotografiju 71 od 94">
+        <img src="assets/galerija/thumb/trakop-all-53.jpg" alt="Radovi Trakop, fotografija 71" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-54.jpg" data-cap="" aria-label="Otvori fotografiju 72 od 94">
+        <img src="assets/galerija/thumb/trakop-all-54.jpg" alt="Radovi Trakop, fotografija 72" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-55.jpg" data-cap="" aria-label="Otvori fotografiju 73 od 94">
+        <img src="assets/galerija/thumb/trakop-all-55.jpg" alt="Radovi Trakop, fotografija 73" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-56.jpg" data-cap="" aria-label="Otvori fotografiju 74 od 94">
+        <img src="assets/galerija/thumb/trakop-all-56.jpg" alt="Radovi Trakop, fotografija 74" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-57.jpg" data-cap="" aria-label="Otvori fotografiju 75 od 94">
+        <img src="assets/galerija/thumb/trakop-all-57.jpg" alt="Radovi Trakop, fotografija 75" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-58.jpg" data-cap="" aria-label="Otvori fotografiju 76 od 94">
+        <img src="assets/galerija/thumb/trakop-all-58.jpg" alt="Radovi Trakop, fotografija 76" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-59.jpg" data-cap="" aria-label="Otvori fotografiju 77 od 94">
+        <img src="assets/galerija/thumb/trakop-all-59.jpg" alt="Radovi Trakop, fotografija 77" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-60.jpg" data-cap="" aria-label="Otvori fotografiju 78 od 94">
+        <img src="assets/galerija/thumb/trakop-all-60.jpg" alt="Radovi Trakop, fotografija 78" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-61.jpg" data-cap="" aria-label="Otvori fotografiju 79 od 94">
+        <img src="assets/galerija/thumb/trakop-all-61.jpg" alt="Radovi Trakop, fotografija 79" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-62.jpg" data-cap="" aria-label="Otvori fotografiju 80 od 94">
+        <img src="assets/galerija/thumb/trakop-all-62.jpg" alt="Radovi Trakop, fotografija 80" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-63.jpg" data-cap="" aria-label="Otvori fotografiju 81 od 94">
+        <img src="assets/galerija/thumb/trakop-all-63.jpg" alt="Radovi Trakop, fotografija 81" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-64.jpg" data-cap="" aria-label="Otvori fotografiju 82 od 94">
+        <img src="assets/galerija/thumb/trakop-all-64.jpg" alt="Radovi Trakop, fotografija 82" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-65.jpg" data-cap="" aria-label="Otvori fotografiju 83 od 94">
+        <img src="assets/galerija/thumb/trakop-all-65.jpg" alt="Radovi Trakop, fotografija 83" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-66.jpg" data-cap="" aria-label="Otvori fotografiju 84 od 94">
+        <img src="assets/galerija/thumb/trakop-all-66.jpg" alt="Radovi Trakop, fotografija 84" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-67.jpg" data-cap="" aria-label="Otvori fotografiju 85 od 94">
+        <img src="assets/galerija/thumb/trakop-all-67.jpg" alt="Radovi Trakop, fotografija 85" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-68.jpg" data-cap="" aria-label="Otvori fotografiju 86 od 94">
+        <img src="assets/galerija/thumb/trakop-all-68.jpg" alt="Radovi Trakop, fotografija 86" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-69.jpg" data-cap="" aria-label="Otvori fotografiju 87 od 94">
+        <img src="assets/galerija/thumb/trakop-all-69.jpg" alt="Radovi Trakop, fotografija 87" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-70.jpg" data-cap="" aria-label="Otvori fotografiju 88 od 94">
+        <img src="assets/galerija/thumb/trakop-all-70.jpg" alt="Radovi Trakop, fotografija 88" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-71.jpg" data-cap="" aria-label="Otvori fotografiju 89 od 94">
+        <img src="assets/galerija/thumb/trakop-all-71.jpg" alt="Radovi Trakop, fotografija 89" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-72.jpg" data-cap="" aria-label="Otvori fotografiju 90 od 94">
+        <img src="assets/galerija/thumb/trakop-all-72.jpg" alt="Radovi Trakop, fotografija 90" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-73.jpg" data-cap="" aria-label="Otvori fotografiju 91 od 94">
+        <img src="assets/galerija/thumb/trakop-all-73.jpg" alt="Radovi Trakop, fotografija 91" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-74.jpg" data-cap="" aria-label="Otvori fotografiju 92 od 94">
+        <img src="assets/galerija/thumb/trakop-all-74.jpg" alt="Radovi Trakop, fotografija 92" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-75.jpg" data-cap="" aria-label="Otvori fotografiju 93 od 94">
+        <img src="assets/galerija/thumb/trakop-all-75.jpg" alt="Radovi Trakop, fotografija 93" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="g-item g-hidden" data-full="assets/galerija/full/trakop-all-76.jpg" data-cap="" aria-label="Otvori fotografiju 94 od 94">
+        <img src="assets/galerija/thumb/trakop-all-76.jpg" alt="Radovi Trakop, fotografija 94" loading="lazy" decoding="async">
+      </button>
+    </div>
+    <div style="text-align: center; margin-top: 28px">
+      <button type="button" class="btn btn-dark" id="show-all">Prikaži sve fotografije (94)</button>
     </div>
   </section>
 
   <!-- CONTACT -->
-  <section id="kontakt" style="background: var(--accent); padding: clamp(56px, 8vw, 112px) clamp(20px, 5vw, 72px); display: flex; flex-wrap: wrap; gap: 56px">
-    <div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
-      <h2 style="margin: 0; font-weight: 800; font-size: clamp(40px, 5vw, 68px); line-height: 1.05; letter-spacing: -0.01em">Kontakt</h2>
-      <a href="tel:+38762344770" style="font-weight: 800; font-size: clamp(48px, 7vw, 96px); line-height: 1; text-decoration: none; color: #1C1A17; letter-spacing: -0.02em">062 344 770</a>
-      <p style="margin: 0; font-size: 18px; line-height: 1.6; max-width: 30rem">Sve dogovaramo telefonom. Nazovite i recite šta treba uraditi i gdje.</p>
-      <div style="display: flex; flex-direction: column; gap: 4px; font-size: 17px">
-        <span>Cajengradska bb, Visoko</span>
-        <span>Radimo u Visokom i okolini</span>
-      </div>
+  <section id="kontakt" class="contact">
+    <div class="contact-text">
+      <h2>TRAKOP – Vaš teren, naš posao!</h2>
+      <p>Kontaktirajte nas i zatražite ponudu. Vaš projekat počinje kvalitetnom pripremom!</p>
+      <a href="tel:+38762344770" class="big-phone">062/344-770</a>
+      <p class="addr"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg> Čajengradska bb, Visoko</p>
     </div>
+    <img class="contact-logo" src="assets/logo.webp" alt="Obrt Trakop logo" loading="lazy" width="900" height="597">
   </section>
 
-  <!-- FOOTER -->
   <div class="tape" aria-hidden="true" style="height: 12px"></div>
-  <footer style="background: #1C1A17; color: #CFC7BA; padding: 28px clamp(20px, 5vw, 72px); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; font-size: 15px">
-    <span><strong style="font-weight: 800; color: #EDEAE3">Obrt Trakop</strong>, iskop mini bagerom</span>
-    <span>Cajengradska bb, Visoko · <a href="tel:+38762344770" style="color: #F2B705">062 344 770</a></span>
+  <footer class="footer">
+    <span><strong>Obrt TRAKOP</strong>, vl. Hamza Trako · Usluge iskopa mini bagerom</span>
+    <span>Čajengradska bb, Visoko · <a href="tel:+38762344770">062/344-770</a></span>
   </footer>
+</div>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Pregled fotografije" hidden>
+  <button type="button" class="lb-close" aria-label="Zatvori">&times;</button>
+  <button type="button" class="lb-nav lb-prev" aria-label="Prethodna"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <figure><img alt=""><figcaption></figcaption></figure>
+  <button type="button" class="lb-nav lb-next" aria-label="Sljedeća"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
 </div>
 </body>
 </html>
