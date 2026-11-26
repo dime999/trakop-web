@@ -2,7 +2,7 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 .fill-accent{fill:var(--accent)}
-body{margin:0;background:#EDEAE3}
+body{margin:0;background:#EDEAE3;font-family:Archivo,system-ui,sans-serif}
 a{color:#1C1A17}a:hover{color:#5A4331}
 .ph{background-color:#CFC8BB;background-image:repeating-linear-gradient(135deg,rgba(28,26,23,.09) 0 2px,transparent 2px 14px)}
 .phd{background-color:#2A2621;background-image:repeating-linear-gradient(135deg,rgba(237,234,227,.07) 0 2px,transparent 2px 14px)}
